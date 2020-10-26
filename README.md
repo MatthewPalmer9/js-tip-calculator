@@ -7,3 +7,5 @@ Welcome to my Js Tip Calculator Repo! The purpose of this project is to learn ho
 
 ## Challenges encountered
 1. This will be the first project I have worked on which requires the ability to pass a `<select>` `<option>` into React state. I solved this problem by researching methods to accomplish this. What I was missing is something so simple... assigning a value to each option and passing that value into state via `onChange={}`. This made me feel silly to forget, but I'm happy the solution was so simple.
+
+2. Applying a calculation on what it otherwise a string can be troublesome. I certainly did not want to be the fool who tried, so I had to do some conversions to display tip information in a hundredths format after being calculated in `this.setState({})`. Luckily, I remembered some important information I found online while practicing technical interview questions. Specifically, how the `+` works in front of a string. It converts numerical strings to integers. This was a very clean way to represent the logic in my application. 

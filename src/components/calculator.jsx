@@ -59,7 +59,6 @@ export default class calculator extends Component {
                             <option value=".05">5% - Bad</option>
                             <option value="0">0% - Horrible</option>
                         </select>
-                        {this.state.servicePerc}
                     </div>
 
                     <div className="party-total">
