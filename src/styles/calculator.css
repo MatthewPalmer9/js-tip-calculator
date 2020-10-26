@@ -5,15 +5,31 @@
     background-color: #ececec;
 }
 
+.calculate {
+    display: grid;
+    padding: 10px;
+    float: center;
+}
+
 .calculator {
     display: grid;
     width: 800px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     background-color: grey;
 }
 
 input, label {
-    float: left;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+select, option {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
